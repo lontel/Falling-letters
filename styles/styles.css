@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+/* .container {
+    height: 100vh;
+} */
+
+#start {
+    margin: 20% auto;
+}
