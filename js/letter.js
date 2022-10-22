@@ -30,9 +30,20 @@ class Letter {
     }
 
     draw() {
-        this.ctx.font = '48px serif'
-        this.ctx.fillText(this.randomChar, this.pos.x, this.pos.y)
-        this.ctx.fillStyle = '#804be2'
+        this.ctx.font = '80px Sans-serif';
+        this.ctx.strokeStyle = 'lightgray';
+        this.ctx.lineWidth = 6;
+        this.ctx.strokeText(this.randomChar, this.pos.x, this.pos.y);
+        this.ctx.fillStyle = 'white';
+        this.ctx.fillText(this.randomChar, this.pos.x, this.pos.y);
+        if (this.isGoldenChar) {
+            this.ctx.beginPath()
+            this.ctx.strokeStyle = 'orange';
+            this.ctx.lineWidth = 12;
+            this.ctx.strokeText(this.randomChar, this.pos.x, this.pos.y);
+            this.ctx.fillStyle = 'yellow';
+            this.ctx.fillText(this.randomChar, this.pos.x, this.pos.y);
+        }
         this.move()
     }
 
@@ -40,4 +51,3 @@ class Letter {
         this.pos.y += this.speedY
     }
 }
-
