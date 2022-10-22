@@ -5,7 +5,7 @@ class Background {
         this.canvasSize = canvasSize
         this.pos = { x: this.canvasSize.w, y: this.canvasSize.h }
         this.image = new Image()
-        this.image.src = "../img/background.png"
+        this.image.src = "img/background.png"
         this.posX = 0
         this.posY = 0
     }

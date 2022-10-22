@@ -13,7 +13,7 @@ class Player {
         }
         this.score = 0
         this.image = new Image();
-        this.image.src = '../img/pickup.png'
+        this.image.src = 'img/pickup.png'
 
     }
 

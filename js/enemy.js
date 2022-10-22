@@ -14,7 +14,7 @@ class Enemy {
         }
         this.speed = speed
         this.image = new Image();
-        this.image.src = '../img/ufo.png'
+        this.image.src = 'img/ufo.png'
     }
 
     draw() {
