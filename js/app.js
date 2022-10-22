@@ -127,10 +127,8 @@ const Game = {
             if (this.isBetweenXAxes(char) && this.isBetweenYAxes(char)) {
                 arrChar.splice(index, 1)
                 char.isGoldenChar ? this.player.score += 2 : this.player.score++
-
             }
         })
-
     },
 
     isBetweenXAxes(char) {

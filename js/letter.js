@@ -15,7 +15,7 @@ class Letter {
         this.randomChar = this.getRandomChar()
         if (this.isGoldenChar) {
             this.randomChar = this.randomChar.toUpperCase()
-            this.speedY = 1.5
+            this.speedY = 2
         }
     }
 
