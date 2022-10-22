@@ -7,9 +7,9 @@ body {
     display: none;
 }
 
-/* .container {
-    height: 100vh;
-} */
+.row {
+    width: 30%;
+}
 
 #start {
     margin: 20% auto;
